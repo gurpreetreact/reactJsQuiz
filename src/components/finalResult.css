@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Frijole&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background-color: #e6e6e6;
+  margin: 20px;
+}
+.outerTimerDiv {
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.timer {
+  animation-duration: 1s;
+  /* text-align: center; */
+  padding-right: 20px;
+  display: inline-block;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  /* padding: 20px; */
+  padding-left: 20px;
+  border-radius: 10cm;
+  background-color: #02811b;
+  color: white;
+}
+.borderStyle {
+  border-radius: 0.5cm;
+  background-image: url("/home/rexweb/Documents/gurpreet/Apps/quizstepper/src/assets/wood-background-78.jpg");
+}
+.mainForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.float-child {
+  margin: 20px;
+  border: 20px solid transparent;
+  border-image-slice: fill;
+  background-color: #e6e6e6;
+  border-radius: 0.5cm;
+  text-align: center;
+}
+#form-1 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.questions {
+  color: #3b9439;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Frijole", cursive;
+}
+.firstDivForm {
+}
+.finalResultComponent {
+  flex: 1;
+}
+label {
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px;
+  font-family: "Montez", cursive;
+}
+.button {
+  padding: 16px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: "Megrim", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  border-radius: 25px;
+}
+.button:hover {
+  background-color: #4caf50;
+  color: white;
+}

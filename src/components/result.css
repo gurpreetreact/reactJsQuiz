@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qwigley&display=swap");
+.result {
+}
+#resultStatement {
+  font-family: "Allura", cursive;
+  font-size: 50px;
+  text-decoration: underline;
+}
+#rightAns {
+  font-family: "Qwigley", cursive;
+  font-size: 40px;
+}
+#wrongAns {
+  font-family: "Qwigley", cursive;
+  font-size: 40px;
+}
